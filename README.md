@@ -9,7 +9,7 @@ For details, you may refer to my blog, [dumpdecrypted in LLDB](https://blog.0xbb
 For example,
 ```
 command script import /PATH/TO/THE/dumpdecrypted.py
-dumpdecrypted -i Ingress -s 30097408 -f 16384 -o /Users/BlueCocoa/Ingress_dumpdecrypted
+dumpdecrypted -i Ingress -o /Users/BlueCocoa/Ingress_dumpdecrypted
 ```
 
 If in doubt, 
