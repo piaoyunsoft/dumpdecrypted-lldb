@@ -77,7 +77,7 @@ def dumpdecrypted(debugger, command, result, internal_dict):
                         print("INFO: found %s" % (encryption_info_description))
                         load_command_start += 8
                         cryptoffset, cryptsize, cryptid = struct.unpack(prefix + "3I", macho_memory[load_command_start:load_command_start+12])
-                        print("INFO: cryptoffset: %d\n      cryptsize:%d\n      cryptid: %d" % (cryptoffset, cryptsize, cryptid))
+                        print("INFO: cryptoffset: %d\n      cryptsize: %d\n      cryptid: %d" % (cryptoffset, cryptsize, cryptid))
                         break
                     else:
                         load_command_start += cmdsize
